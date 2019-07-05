@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feedback</title>
+<link rel="stylesheet" type="text/css" href="../Css/main.css">
+<link rel="shortcut icon" href="../Img/Psd/Untitled-2.png">
+<script src="../js/jquery-3.3.1.min.js"></script>
+
+<script>
+
+	function check(){
+		var a = 0;
+
+		if($('input[name="management"]:checked').length===0){
+			$('.managementError').html('Please Select One Option');
+			$('.managementError').css('display','block');
+		}else{
+			$('.managementError').css('display','none');
+			a++;
+		}
+		
+		if($('input[name="experience"]:checked').length===0){
+			$('.experienceError').html('Please Select One Option');
+			$('.experienceError').css('display','block');
+		}else{
+			$('.experienceError').css('display','none');
+			a++;
+		}
+		if($('input[name="all"]:checked').length===0){
+			$('.allError').html('Please Select One Option');
+			$('.allError').css('display','block');
+		}else{
+			$('.allError').css('display','none');
+			a++;
+		}
+		if($('input[name="new"]:checked').length===0){
+			$('.newError').html('Please Select One Option');
+			$('.newError').css('display','block');
+		}else{
+			$('.newError').css('display','none');
+			a++;
+		}
+		if($('input[name="point"]:checked').length===0){
+			$('.pointError').html('Please Select One Option');
+			$('.pointError').css('display','block');
+		}else{
+			$('.pointError').css('display','none');
+			a++;
+		}
+		if($('input[name="no"]:checked').length===0){
+			$('.noError').html('Please Select One Option');
+			$('.noError').css('display','block');
+		}else{
+			$('.noError').css('display','none');
+			a++;
+		}
+		if($('#comments').val()==''){
+			$('.commentsError').html('Please Select One Option');
+			$('.commentsError').css('display','block');
+		}else{
+			$('.commentsError').css('display','none');
+			a++;
+		}
+		
+		
+		
+		if(a==7){
+			alert('Feedback Submit Sucessfully');
+			location.reload();
+		}
+	}
+	function Contact() {
+		window.location="Contact Us.html";
+	}
+
+</script>
+<style>
+	.error{
+		color: red;
+		display: none;
+	}
+</style>
+</head>
+
+<body>
+<div class="main">
+
+<div class="navigation" align="center"><div class="blue" style="margin-top: 100px;"></div><div class="logo"><a href="../Index.html"><img src="../Img/Psd/NEW.png" width="180" height="50px"/></a></div>
+<div class="nav"><nav>
+	<ul>
+	<a href="../Index.html"><li>Home</li></a>
+		<a href="About Us.html"><li>About Us</li></a>
+		<a href="Department.html"><li>Department</li></a>
+		<a href="facility.html"><li>Facility</li></a>
+		<a href="services.html"><li>Services</li></a>
+		<a href="Centres.html"><li>Centers</li></a>
+		<a href="Academic.html"><li>Academic</li></a>
+		<a href="Contact Us.html"><li>Contact Us</li></a>
+		<a href="Vacancies.html"><li>Vacancies</li></a>
+		<a href="Query.html"><li>Query</li></a>
+		<a href="Feedback.html"><li style="color: deepskyblue">Feedback</li></a>
+		<a href="Sucess Stories.html"><li>Sucess Stories</li></a>
+		
+	</ul>
+</nav>
+</div>
+</div>
+<br><br><br><br><br><br>
+<div class="mainimage"><img src="../Img/cmh-transformation3-no-tree.jpg" width="1345px"  height="300px;"><h1>Feedback</h1></div>
+<br><br><br><br><br><br><br><br><br>
+<div class="QUESTION">
+<div class="Questionimg"><img src="../Img/m_team_4.jpg"></div>
+	<h1 style="font-size: 50px">Give Us Your Feedback</h1>
+	
+	<br><br><br><br>
+	<p>1.How was our management treated you?</p><br>
+	<input type="radio" name="management">Excellent<br>
+	<input type="radio" name="management">Average<br>
+	<input type="radio" name="management">Poor<br>
+	<label class="error managementError"></label>
+	<br><br>		
+	<p>2.How was your experience with our lower staff?</p><br>
+	<input type="radio" name="experience">Excellent<br>
+	<input type="radio" name="experience">Average<br>
+	<input type="radio" name="experience">Poor<br>
+	<label class="error experienceError"></label>
+	<br><br>
+	<p>3.How was your experience with our experts physicians?</p><br>
+	<input type="radio" name="all">Excellent<br>
+	<input type="radio" name="all">Average<br>
+	<input type="radio" name="all">Poor<br>
+	<label class="error allError"></label>
+	<br><br>
+	<p>4.How was the time punctuality of our team?</p><br>
+	<input type="radio" name="new">Excellent<br>
+	<input type="radio" name="new">Average<br>
+	<input type="radio" name="new">Poor<br>
+	<label class="error newError"></label>
+	<br><br>
+	<p>5.How was our Nursing Care?</p><br>
+	<input type="radio" name="point">Excellent<br>
+	<input type="radio" name="point">Average<br>
+	<input type="radio" name="point">Poor<br>
+	<label class="error pointError"></label>
+	<br><br>
+	<p>6.How was our transpotaion service?</p><br>
+	<input type="radio" name="no">Excellent<br>
+	<input type="radio" name="no">Average<br>
+	<input type="radio" name="no">Poor<br>
+	<label class="error noError"></label>
+	<br><br>
+	<p>Comments</p><br>
+	<textarea id="comments" rows="8" cols="80" style="resize: none"></textarea>
+	<br/>
+	<label class="error commentsError"></label>
+	<br>
+	<input type="button" value="Submint" id="SUBMINT" onClick="check()">
+</div>
+
+<br><br>
+<div class="contact"><img src="../Img/phone.png" width="50px" height="50px"><h1 style="color: white">EMERGENCY CALL: (123) 00 8888 999</h1><div class="White"><input type="button" value="Contact Us" class="CONTACTUS" onClick="Contact()"></div></div>
+<div class="black"><div class="newleft1"><br><h1 align="center" style="color: white">About us</h1><br><br><br><p align="justify" style="color: white">Thereare aserttrmany variations of passages of Lorem Ipsum available, but jority haTher aswrta serttrmany variations of passages of Lorem available.aTher wrtof Lorem Ipsum available.</p></div><div class="newleft2"><br><h1 align="center" style="color: white">Medical Guide</h1><br><ul>
+<a href="../Index.html"><li style="color: white">Home</li></a>
+<div class="WHITE"></div>
+<a href="services.html"><li style="color: white">Services</li></a>
+<div class="WHITE"></div>
+	<a href="Department.html"><li style="color: white">Departments</li></a>
+	<div class="WHITE"></div>
+	<a href="About Us.html"><li style="color: white">About Us</li></a>
+	<div class="WHITE"></div>
+
+</ul></div><div class="newleft3"><br><h1 align="center" style="color: white">Keep In Touch</h1><br><ul>
+	<li style="color: white"> Medical Ltd, Manhattan 1258, New York, USA Lahore</li>
+	<br><li style="color: white">(123) 00 8888 999</li>
+	<br><a href="mailto:info@example.com"><li style="color: white">info@example.com</li></a>
+	<br><li style="color: white">(123) 00 8888 999</li>
+</ul></div>
+</div>
+
+<div class="footer"><br><h3 align="center" style="color: white">Cambridge © All Rights Reserved 2018.</h3></div>
+</div>
+</body>
+</html>

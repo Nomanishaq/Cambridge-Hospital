@@ -1,0 +1,1124 @@
+*{margin: 0 auto;}
+.main{
+	width: 1345px;
+	height: 100%;
+}
+@-webkit-keyframes noman{
+	0%{transform: translateX(-500px);}
+	50%{transform: translateX(50px);}
+}
+@-webkit-keyframes noman1{
+0%{transform: translateY(-500px);}
+	50%{transform: translateY(50px);}	
+}
+@-webkit-keyframes noman2{
+	0%{transform: translateX(500px);}
+	50%{transform: translateX(50px);}
+}
+.navigation{
+	width: 1345px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	z-index: 11;
+	
+}
+.blue{
+	width: 1345px;
+	height: 4px;
+	background-color: deepskyblue;
+}
+.logo img{
+	margin-top: -100px;
+	float: left;
+	margin-left: 10px;
+}
+
+.h2a a{
+	text-decoration: none !important;
+}
+.h2 a{
+	text-decoration: none !important;
+}
+.qualifieddoctor a{
+	text-decoration: none !important;
+}
+.navigation nav ul li{
+	list-style: none;
+	float: left;
+	margin: 15px 3px 8px 8px ;
+	margin-left: 40px;
+	color:black;
+}
+.nav{
+	margin-top: -50px;
+}
+nav ul li:hover{
+	cursor: pointer;
+	color: deepskyblue;
+	transition: 0.3s;
+}
+#slider{
+	width: 1345px;
+	height: 600px;
+	
+}
+.blues{
+	width: 1345px;
+	height: 100px;
+	margin-top: 2px;
+	background-color: deepskyblue;
+}
+.h{
+	margin-top: -60px;
+	margin-left: 30px;
+	color: white;
+}
+.appoiment{
+	width: 300px;
+	height: 70px;;
+	margin-top: -50px;
+	background-color: deepskyblue;
+	color: white;
+	font-size: 21px;
+	border: solid white;
+	float: right;
+	margin-right: 10px;
+}
+.CONTACTUS{
+	width: 300px;
+	height: 70px;;
+	margin-top: -50px;
+	background-color: deepskyblue;
+	color: white;
+	font-size: 21px;
+	border: solid white;
+	float: right;
+	margin-right: 10px;
+}
+.CONTACTUS:hover{
+	cursor: pointer;
+	background-color: white;
+	color: deepskyblue;
+	transition: 0.7s;
+}
+.White{
+	color: white;
+}
+.appoiment:hover{
+	cursor: pointer;
+	background-color: white;
+	color: deepskyblue;
+	transition: 0.7s;
+}
+.text{
+	width: 1345px;
+	height: 50px;
+	margin-top: 20px;
+}
+.blueline{
+	width: 70px;
+	height: 5px;
+	background-color: deepskyblue;
+}
+.text p{
+	margin-top: 5px;
+}
+.Facilities{
+	width: 1300px;
+	height: 400px;
+    animation: noman 8s;
+	
+}
+.Emergency{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:deepskyblue;
+	margin-left: 100px;
+}
+.Emergency img{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.Facilities h2{
+	margin-left: 170px;
+	margin-top: -50px;
+}
+.Facilities p{
+	margin-left: 170px;
+	margin-top: 5px;
+}
+.skilldoctor{
+	width: 60px;
+	height: 60px;
+	background-color: deepskyblue;
+	border-radius: 50%;
+	margin-top: -105px;
+	margin-left: -1px;
+	margin-left: 500px;
+}
+.skilldoctor img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.h2a h2{
+	color: black;
+	text-decoration: inherit;
+}
+.h2{
+	margin-left: 400px;
+}
+.h2b a{
+	text-decoration: none !important;
+}
+.h2c a{
+	text-decoration: none !important;
+}
+.h2d a{
+	text-decoration: none !important;
+}
+.h2e a{
+	text-decoration: none !important;
+}
+.h2 h2{
+	color: black;
+	text-decoration:inherit;
+}
+.dental{
+	width: 60px;
+	height: 60px;
+	background-color: deepskyblue;
+	margin-right: 300px;
+	margin-top: -105px;
+	border-radius: 50%;
+}
+.dental img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.h2b{
+	margin-left: 850px;
+}
+.h2b h2{
+	color: black;
+	text-decoration:inherit;
+}
+.h2c h2{
+	color: black;
+	text-decoration: inherit;
+}
+.eyecare{
+	width: 60px;
+	height: 60px;
+	background-color: deepskyblue;
+	margin-top: 50px;
+	margin-left: -1px;
+	margin-left: 100px;
+	border-radius: 50%;
+}
+.eyecare img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.cardiology{
+	width: 60px;
+	height: 60px;
+	background-color: deepskyblue;
+	margin-top: -100px;
+	margin-left: -1px;
+	margin-left: 500px;
+	border-radius: 50%;
+}
+.cardiology img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.h2d{
+	margin-left: 400px;
+}
+.h2d h2{
+	color: black;
+	text-decoration: inherit;
+}
+.ambulance{
+	width: 60px;
+	height: 60px;
+	background-color: deepskyblue;
+	margin-right: 300px;
+	margin-top: -90px;
+	border-radius: 50%;
+}
+.ambulance img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.h2e{
+	margin-left: 850px;
+}
+.h2e h2{
+	color: black;
+	text-decoration: inherit;
+}
+.Facilities h2:hover{
+	cursor: pointer;
+	color: deepskyblue;
+	transition: 0.4s;
+}
+.Facilities img:hover{
+	cursor: pointer;
+	transition: 0.4s;
+}
+.totalhealthcaresolution{
+	width: 1345px;
+	height: 600px;
+	animation: noman2 8s;
+}
+
+.totalimg{
+	width: 600px;
+	height: 600px;
+	margin-right: 10px;
+	margin-top: -500px;
+}
+.total h1{
+	margin-left: 60px;
+}
+.total p{
+	margin-left: 60px;
+}
+.Readmore{
+	width: 150px;
+	height: 50px;
+	margin-left: 60px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: deepskyblue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.Readmore:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.4s;
+}
+.qualifieddoctor{
+	width: 1345px;
+	height: 600px;
+}
+.fom{
+	width: 1345px;
+	height: 450px;
+	background-color:darkslategray;
+	
+}
+.txt{
+	margin-left: 50px;
+	
+}
+.txt p{
+	margin-top: 10px;
+}
+.submision{
+	margin-left: 600px;
+	margin-top: -150px;
+}
+#submit{
+	width: 230px;
+	height: 50px;
+	margin-top: -100px;
+}
+#control{
+	width: 230px;
+	height: 50px;
+	margin-top: -100px;
+}
+#sub{
+	width: 230px;
+	height: 50px;
+	
+	margin-top: 40px;
+}
+
+#subm{
+	width: 230px;
+	height: 50px;
+	margin-top: 40px;
+}
+#submint{
+	width: 150px;
+	height: 50px;
+	background-color: deepskyblue;
+	color: white;
+	margin-top: 50px;
+	border: none;
+	border-radius: 5px;
+}
+#submint:hover{
+	cursor: pointer;
+	 color: black;
+	transition: 0.7s;
+}
+.medical{
+	width: 1320px;
+	height: 500px;
+	margin-top: 30px;
+}
+#button{
+	width:198px;
+	height: 80px;
+	color: white;
+	margin-top: 10px;
+}
+#button:hover{
+	cursor: pointer;
+}
+#Button{
+	width:198px;
+	height: 80px;	
+	margin-top: 10px;
+	background-color: white;
+}
+#Button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: deepskyblue;
+	transition: 0.7s;
+}
+.left{
+	width: 200px;
+	height: 500px;
+	float: left;
+	
+	}
+#utton{
+	width: 198px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: white;
+}
+#utton:hover{
+	cursor: pointer;
+	color: white;
+	background-color: deepskyblue;
+	transition: 0.7s;
+}
+#ton{
+	width: 198px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: white;
+}
+#ton:hover{
+	cursor: pointer;
+	color: white;
+	background-color: deepskyblue;
+	transition: 0.7s;
+}
+#on{
+	width: 198px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: white;
+}
+#on:hover{
+	cursor: pointer;
+	color: white;
+	background-color: deepskyblue;
+	transition: 0.7s;
+}
+.right{
+	width: 1100px;
+	height: 500px;
+	float: right;
+	background-repeat: no-repeat;
+
+}
+.deepskyblue{
+	width: 1345px;
+	height: 400px;
+	background-color: deepskyblue;
+}
+.white1st{
+	width: 400px;
+	height: 150px;
+	background-color: white
+}
+.white2st{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+}
+.white3st{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+}
+.white1st img{
+	margin-left: 300px;
+	margin-top: -100px;
+	border-radius: 20%;
+}
+.white2st img{
+	margin-left: 300px;
+	margin-top: -100px;
+	border-radius: 20%;
+	
+}
+.white3st img{
+	margin-left: 300px;
+	margin-top: -100px;
+	border-radius: 20%;
+}
+.smallblue{
+	width: 50px;
+	height: 10px;
+	background-color: white;
+	border-radius: 20%;
+}
+.Latestnews{
+	width: 1345px;
+	height: 500px;
+}
+.Latestnews a{
+	text-decoration: none!important;
+}
+.Latestnews h2{
+	color: black;
+}
+.line{
+	width: 50px;
+	height: 10px;
+	background-color: deepskyblue;
+}
+.contact{
+	width: 1345px;
+	height: 100px;
+	background-color: deepskyblue;
+}
+.contact h1{
+	margin-left: 70px;
+	margin-top: -45px;
+}
+.contact img{
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.black{
+	width: 1341px;
+	height: 260px;
+	background-color: black;
+	border:double white;
+}
+.footer{
+	width: 1345px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.9;
+}
+.newleft1{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-left: 30px;
+}
+.newleft2{
+	width: 400px;
+	height: 300px;
+	
+}
+.newleft3{
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-top: -300px;
+}
+.newleft2 ul li{
+	margin-left: 70px;
+	margin-top: 10px;
+	text-decoration: inherit;
+}
+.newleft3 ul li{
+	margin-left: 60px;
+}
+.newleft2 ul li:hover{
+	cursor: pointer;
+}
+.department{
+	width: 1300px;
+	height: 1660px;
+}
+#Click{
+	width: 170px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: deepskyblue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+#Click:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.7s;	
+}
+
+.Contactleft{
+	width: 600px;
+	height: 700px;
+	margin-left: 10px;
+	margin-top: 80px;
+}
+.Blueline{
+	width: 80px;
+	height: 8px;
+	background-color: deepskyblue;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.Contactright{
+	width: 600px;
+	height: 540px;
+	margin-left: 650px;
+	margin-top: -500px;
+}
+#box{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+}
+#box1{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+}
+#box2{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+}
+#box3{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+}
+#box4{
+	width: 510px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 43px;
+}
+#box5{
+	width: 120px;
+	height: 50px;
+	margin-top: 30px;
+	background-color: deepskyblue;
+	color: white;
+	margin-left: 40px;
+	border: none;
+	border-radius: 5px;
+}
+#box5:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.7s;
+}
+.map{
+	width: 1335px;
+	height: 300px;
+	background-image: url(../Img/Capture.JPG);
+	margin-left: 1px;
+}
+.About{
+	width: 550px;
+	height: 500px;
+	margin-right: 150px;
+	margin-top: -500px;
+}
+.blu{
+	width: 50px;
+	height: 5px;
+	background-color: deepskyblue;
+	margin-left: 30px;
+}
+.Aboutimage img{
+	margin-left: 70px;
+}
+.Feedback{
+	width: 800px;
+	height: 600px;
+	margin-left: 150px;
+}
+#Feedback{
+	width: 260px;
+	height: 30px;
+	margin: 10px;
+}
+#feedback{
+	width: 550px;
+	height: 60px;
+	margin-left: 10px;
+}
+#Feedbackbutton{
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+}
+#Feedbackbutton:hover{
+	cursor: pointer;
+	color: deepskyblue;
+}
+#SUBMINT{
+	width: 120px;
+	height: 50px;
+	background-color: deepskyblue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+#SUBMINT:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.7s;
+
+}
+.Servicies{
+	width: 1300px;
+	height: 300px;	
+}
+
+.mainimage img{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+
+}
+.mainimage{
+	animation: noman 5s;
+}
+.mainimage h1{
+	margin-top: -190px;
+	margin-left: 470px;
+	font-size: 50px;
+	color: white;
+	z-index: 1;
+	animation: noman1 7s;
+}
+.Contact h3{
+	margin-left: 40px;
+}
+.Dr1left{
+	width: 400px;
+	height: 450px;
+	margin-left: 70px;
+}
+.Dr1right{
+	width: 800px;
+	height: 450px;
+	margin-right: 10px;
+	margin-top: -500px;
+}
+.grayline{
+	width: 800px;
+	height: 1px;
+	background-color: gray;
+}
+.Ambulance{
+	margin-left: 50px;
+	margin-top: -100px;
+}
+.Ambulance h1{
+	margin-top: 170px;
+	margin-left: -20px;
+}
+.Ambulance img{
+	margin-left: 550px;
+	margin-top: -350px;
+}
+.newleft2 a{
+	text-decoration: none !important;
+}
+.sucessstoriesleft{
+	width: 600px;
+	height: 400px;
+	margin-left: 25px;
+	
+}
+.sucessstoriesright{
+	width: 600px;
+	height: 300px;
+	margin-left: 800px;
+	margin-top: -380px;
+}
+.dot{
+	margin-left: 30px;
+}
+.querymain{
+	width: 1345px;
+	height: 700px;
+	
+}
+.querymain p{
+	
+	font-size: 24px;
+}
+.form-control{
+	width: 30%;
+	height: 34px;
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		box-shadow: inset 2px 2px 0 0 rgba(189,189,189,.91);
+
+		
+}
+.form-control1{
+	width: 30%;
+	height: 90px;
+	box-shadow: inset 2px 2px 0 0 rgba(189,189,189,.91);
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		
+	
+}
+.form-control2{
+	width: 45%;
+	height: 34px;
+	box-shadow: inset 2px 2px 0 0 rgba(189,189,189,.91);
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	margin-bottom: 8px;
+}
+.cs{
+	margin-left: 360px;
+	margin-top: -110px;
+	
+}
+.qform input[type=submit] {
+	width: 120px;
+	height: 50px;
+    background-color:deepskyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+.qform input[type=submit]:hover {
+
+	cursor: pointer;
+	color: black;
+	transition: 0.7s;
+}
+.form-control4{
+	 width: 66%;
+	height: 100px;
+	box-shadow: inset 2px 2px 0 0 rgba(189,189,189,.91);
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;	
+}
+.QUESTION{
+	margin-left: 100px;
+}
+.QUESTION h1{
+	margin-left: 330px;
+	margin-top: -600px;
+}
+.Questionimg{
+	width: 800px;
+	height: 500px;
+	margin-right: 1px;
+	margin-top: 100px;
+}
+.Questionimg img{
+	margin-left: 300px;
+	margin-top: 100px;
+	animation: noman2 11s;
+}
+.servicies{
+	width: 350px;
+	height: 350px;
+	background-color: #f2f6f8;
+	margin: 20px;
+}
+.mainservicies{
+	width: 100px;
+	height: 100px;
+	background-color: deepskyblue;
+	border-radius: 100%;
+}
+.servicies img{
+	margin-left: 30px;
+	margin-top: 25px;
+}
+.FACILITIY img{
+	margin: 15px;
+}
+.FACILITIY h2{
+	margin-left: 20px;
+}
+.FACILITIY p{
+	margin-left: 20px;
+}
+.WHITE{
+	width: 220px;
+	height: 1px;
+	background-color: gray;
+	margin-top: 5px;
+}
+.mainSerivicies a{
+	text-decoration: none !important;
+	color: black;
+}
+.mainSerivicies h1:hover{
+	cursor: pointer;
+	color: deepskyblue;
+	transition: 0.7s;
+}
+.FACILITIY a{
+	text-decoration: none !important;
+	color: black;
+}
+.FACILITIY h2:hover{
+	cursor: pointer;
+	color: deepskyblue;
+	transition: 0.7s;
+}
+.APPOINTMENT{
+	width: 1100px;
+	height: 450px;
+	background-color: #f2f6f8;
+}
+.FFOM{
+	margin-left: 250px;
+}
+.deepskyblue a{
+	text-decoration: none !important;
+}
+.sucessstoriesbuttom{
+	width: 800px;
+	height: 450px;
+	margin-left: 10px;
+}
+.Sucessstoryima img{
+	margin-left: 850px;
+	margin-top: -330px;
+}
+.Dr1right h4{
+	margin-top: -130px;
+	margin-left: 770px;
+}
+.Centerstop{
+	width:881px;
+	height: 593px;
+	margin-left: 1px;
+	margin-top: -15px;
+}
+.Centerstopright{
+	margin-left: 900px;
+	width: 400px;
+	height: 400px;
+}
+.Centerstopright h1{
+	margin-top: -580px;
+	font-size: 50px;
+}
+.Centerstopright p{
+	color: gray;
+}
+.Centerstop2nd{
+	width: 1345px;
+	height: 700px;
+	
+}
+.Centerstop2ndright{
+	width: 400px;
+	height: 400px;
+	margin-top: -700px;
+	margin-left: 900px;
+}
+.Centerstop2ndright p{
+	color: grey;
+}
+.Centerstop2ndright h1{
+	font-size: 50px;
+}
+.Centerstop3nd{
+	width: 1345px;
+	height: 700px;
+	margin-top: 10px;
+}
+.Centerstop3ndright{
+	width: 400px;
+	height: 400px;
+	margin-top: -520px;
+	margin-left: 900px;
+}
+.Centerstop3ndright p{
+	color: gray;
+}
+.Centerstop3ndright h1{
+	font-size: 50px;
+}
+
+.Centerstop4nd{
+	width: 1345px;
+	height: 650px;
+	margin-top: -80px;
+}
+.Centerstop4ndright{
+	width: 400px;
+	height: 400px;
+	margin-top: -520px;
+	margin-left: 900px;
+	
+}
+.Centerstop4ndright p{
+	color: gray;
+}
+.Centerstop4ndright h1{
+	font-size: 50px;
+}
+.Acadmic{
+	width: 600px;
+	height: auto;
+	margin-left: 0px;
+}
+.Acadmic img{
+	margin-left: 670px;
+	margin-top: -100px;
+}
+.Acadmic p{
+	
+	color: gray;
+	margin-top: -280px;
+}
+.Acadmic h1{
+	margin-top: 40px;
+}
+
+.descrip{
+	margin-left: 50px;
+}
+.descrip p{
+	margin-top: 20px;
+}
+.helpdesk{
+	width: 800px;
+	height: 400px;
+	background-image: url(../Img/2k12-0401-AK3_0189.jpg);
+	margin-left: 0;
+}
+.helpdeskright{
+	width: 500px;
+	height: 400px;
+	margin-right: 0;
+	margin-top: -400PX;
+}
+.neeww a{
+	text-decoration: none!important;
+}
+.neeww h1{
+	color: black;
+}
+.neeww h1:hover{
+	cursor: pointer;
+	color: deepskyblue;
+	transition: 0.7s;
+}
+.billingleft{
+	width: 500px;
+	height: 400px;
+	margin-left: 200px;
+	background-image: url(../Img/m_team_2.jpg); background-repeat: no-repeat;
+}
+.billing{
+	width: 500px;
+	height: 400px;
+	margin-right: 100px;
+	margin-top: -400px;
+}
+.ac a{
+	text-decoration: none !important;
+}
+.ac h3{
+	color: black;
+}
+.newleft3 a{
+	text-decoration: none;
+}
+.founder{
+	width: 1200px;
+	height: 400px;
+}
+.founder img{
+	margin-top: -30px;
+	margin-left: 1000px;
+}
+.founder p{
+	margin-top: -30px;
+}
+.founder h1{
+	margin-top: 20px;
+	color: deepskyblue;
+}
+.Acadmic2{
+	width: 600px;
+	height: 400px;
+	margin-right: 50px;
+	margin-top: -350px;
+}
+.Acadmic h1{
+	color: deepskyblue;
+}
+.vmain{
+	width: 1345px;
+	height: 1050px;
+}
+.vmain h1{
+	color: deepskyblue;
+}
+#vamain{
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+	background-color: deepskyblue;
+	color: white;
+	
+}
+#vamain:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.7s;
+}
+.jjj{
+	width: 1000px;
+	height: 350px;
+}
+#ke{
+	width: 300px;
+	height: 40px;
+	margin: 10px;
+}
+#woo{
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+	background-color: deepskyblue;
+	color: white;
+}
+#woo:hover{
+	cursor: pointer;
+	transition: 0.7s;
+	color: black;
+}

@@ -1,0 +1,365 @@
+  <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cambridge Hospital</title>
+<link rel="stylesheet" type="text/css" href="Css/main.css">
+<script>
+	function bunclick() {
+	window.location="pages/About Us.html";
+}
+	function Contact() {
+		window.location="pages/Contact Us.html";
+	}
+	</script>
+<link rel="shortcut icon" href="Img/Psd/Untitled-2.png">
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+			$('#slider').cycle({ 
+    fx:    'fade', 
+    speed:  2500 
+ });		  
+					  }
+	);
+    </script>
+</head>
+
+<body>
+<div class="main">
+
+<div class="navigation" align="center"><div class="blue" style="margin-top: 100px;"></div><div class="logo"><a href="Index.html"><img src="Img/Psd/NEW.png" width="180" height="50px"/></a></div>
+<div class="nav"><nav>
+	<ul>
+		<a href="Index.html"><li style="color: deepskyblue">Home</li></a>
+		<a href="pages/About Us.html"><li>About Us</li></a>
+		<a href="pages/Department.html"><li>Department</li></a>
+		<a href="pages/facility.html"><li>Facility</li></a>
+		<a href="pages/services.html"><li>Services</li></a>
+		<a href="pages/Centres.html"><li>Centers</li></a>
+		<a href="pages/Academic.html"><li>Academic</li></a>
+		<a href="pages/Contact Us.html"><li>Contact Us</li></a>
+		<a href="pages/Vacancies.html"><li>Vacancies</li></a>
+		<a href="pages/Query.html"><li>Query</li></a>
+		<a href="pages/Feedback.html"><li>Feedback</li></a>
+		<a href="pages/Sucess Stories.html"><li>Sucess Stories</li></a>
+		
+	</ul>
+</nav>
+</div>
+</div>
+	<br><br><br><br><br><br>
+<div id="slider">
+	<img src="Img/slide1_1.jpg" width="1345" height="600">
+	<img src="Img/slide1_2.jpg" width="1345" height="600">
+	<img src="Img/slide1_3.jpg" width="1345" height="600">
+</div>
+
+<div class="blues"></div>
+<div class="h"><h2>WE PROVIDE TOTAL HEALTH CARE SOLUTIONS FOR YOU</h2><style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #2f4f4f;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+	
+	.button:hover
+	{background-color: white;
+	color: deepskyblue;
+	border: solid deepskyblue;}
+
+.descrip
+	{width: 50%;
+	height: 450px;
+	text-align: left;}
+	
+.forMS
+	{width: 50%;
+	height: 450px;
+	margin-left: 50%;
+	margin-top: -450px;}
+</style>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn" class="appoiment">Make An Appointment</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="APoinment">
+    <div class="descrip">
+    <br><br><br>
+    	<h1 style="color: white">MAKE AN APPOINTMENT</h1><br><p style="color:darkgray">Rmply dummy text of the printing and typesetting industry </p><p style="color: darkgray">Lorem Ipsum has been the industry's standard dummy text evn </p><p style="color: darkgray">unknown printer took.Rmply dummy text of the printin and </p><p style="color: darkgray">typesetting dustry's standard.</p></div><div class="submision">
+    </div>
+  <div class="forMS">
+<form onSubmit="alert('Your Appointment detail has been recived i will infom You')">
+<table><br><br><br><br><br><br>
+	<tr>
+		<td><input type="text" placeholder="Name*" id="submit" required pattern="[A-Za-z]{3,}"></td>
+     	<td><input type="email" placeholder="Email*" id="control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></td>
+	</tr>
+
+<tr>
+	<td><input type="tel" placeholder="Phone*" id="sub" required pattern="[0-9]{4}-[0-9]{7}$"></td>
+	
+	<td><input type="text" placeholder="Department*" id="subm" required pattern="[A-Za-z]{3,}"></td>
+	
+</tr>
+<tr>
+	<td><input type="submit" value="Submit" id="submint"/></td>
+</tr>
+</table>
+</form>
+
+	</div>
+</div></div></div>
+
+<script>
+function abc(a)
+{
+	document.getElementById("big").src = a;
+	}
+
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<br><br>
+<div class="text"><h1 align="center" style="font-size: 40px">OUR SERVICES</h1><br><div class="blueline"></div><br><p align="center" style="color: gray">We Provide a Best Facilities</p></div>
+<br><br><br><br><br>
+<div class="Facilities"><div class="Emergency"><a href="pages/Emergency case.html"><img src="Img/case.png" width="40px" height="40px"></a></div><div class="h2a"><a href="pages/Emergency case.html"><h2>Emergency Case</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div><a href="pages/Skill Doctor.html"><div class="skilldoctor"><img src="Img/doctor.png" width="40px" height="40px;"></div></a><div class="h2"><a href="pages/Skill Doctor.html"><h2>Skill Doctor</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div>
+<a href="pages/Dr.Sara Rozairo.html"><div class="dental"><img src="Img/dental.png"/></div></a><div class="h2b"><a href="pages/Dr.Sara Rozairo.html"><h2>Dental Care</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div>
+<a href="pages/Dr.Sara Roziro.html"><div class="eyecare"><img src="Img/eye.png"/></div></a><div class="h2c"><a href="pages/Dr.Sara Roziro.html"><h2>Eyes Care</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div>
+<a href="pages/Dr.Crista.html"><div class="cardiology"><img src="Img/cardiology.png"/></div></a><div class="h2d"><a href="pages/Dr.Crista.html"><h2>Cardiology</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div>
+<div class="ambulance"><a href="pages/Ambulance.html"><img src="Img/ambulance.png"/></a></div><div class="h2e"><a href="pages/Ambulance.html"><h2>Ambulance</h2></a><p style=" color: gray">Rmply dummy text of the printing and</p> <p style="color: gray">typesetting industrIpsum has been the </p><p style="color: gray">industry's standsimply.</p></div></div>
+
+<div class="totalhealthcaresolution"><br><br><br><br><br><div class="total"><h1 style="font-size: 50px;">Providing Total Health Care </h1><h1 style="font-size: 50px;">Solution</h1><br><br><br><p style="color: gray">Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has </p><br><p style="color: gray">been the industry's standard dummy text ever since thknown printer took a </p><br><p style="color: gray">galley of type and scrambled book.</p><input type="button" value="READ MORE" class="Readmore" onClick="bunclick()"></div><div class="totalimg"><img src="Img/about-one.png"/></div></div>
+<div class="qualifieddoctor">
+<h1 align="center">QUALIFIED DOCTORS</h1><br><br><div class="blueline"></div><br><p align="center" style="color: gray">Dorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod.</p><br><br> <table>
+	<tr>
+		<td><a href="pages/Dr.Sara Roziro.html"><img src="Img/m_portfolio_4.jpg" width="330px" height="350px"/></a></td>
+		<td><a href="pages/Dr.Johnathon.html"><img src="Img/m_team_1.jpg" width="330px" height="350px"/></a></td>
+		<td><a href="pages/Dr.Sara Rozairo.html"><img src="Img/m_team_2.jpg" width="330px" height="350px"/></a></td>
+		<td><a href="pages/Dr.Crista.html"><img src="Img/m_team_3.jpg" width="330px" height="350px"/></a></td>
+	</tr>
+	<tr>
+	     <td><a href="pages/Dr.Sara Roziro.html"><h2 style="color: black">Dr.Sara Roziro</h2></a></td>
+	     <td><a href="pages/Dr.Johnathon.html"><h2 style="color: black">Dr.Johnathon</h2></a></td>
+	     <td><a href="pages/Dr.Sara Rozairo.html"><h2 style="color: black">Dr.Sara Rozairo</h2></a></td>
+		<td><a href="pages/Dr.Crista.html"><h2 style="color: black">Dr.Crista</h2></a></td>
+	</tr>
+	<tr>
+		<td style="color: deepskyblue"><h5>Eye Specialist</h5></td>
+		<td style="color: deepskyblue"><h5>Surgery</h5></td>
+		<td style="color: deepskyblue"><h5>Dentist</h5></td>
+		<td style="color: deepskyblue"><h5>Cardiology</h5></td>
+	</tr>
+	<tr>
+	
+		<td><br><p style="color: darkgray">Dmply Dummy Text Of The Printing And</p><br><p style="color: darkgray">Typesetting Industry</p></td>
+		<td><br><p style="color: darkgray">Dmply Dummy Text Of The Printing And</p><br><p style="color: darkgray">Typesetting Industry</p></td>
+		<td><br><p style="color: darkgray">Dmply Dummy Text Of The Printing And</p><br><p style="color: darkgray">Typesetting Industry</p></td>
+		<td><br><p style="color: darkgray">Dmply Dummy Text Of The Printing And</p><br><p style="color: darkgray">Typesetting Industry</p></td>
+	</tr>
+</table>
+</div><br><br><br><br><br>
+<div class="fom"><div class="txt"><br><br><br><h1 style="color: white">MAKE AN APPOINTMENT</h1><br><p style="color:darkgray">Rmply dummy text of the printing and typesetting industry </p><p style="color: darkgray">Lorem Ipsum has been the industry's standard dummy text evn </p><p style="color: darkgray">unknown printer took.Rmply dummy text of the printin and </p><p style="color: darkgray">typesetting dustry's standard.</p></div><div class="submision">
+<form onSubmit="alert('Your Appointment detail has been recived i will infom You')">
+<table><br>
+	<tr>
+		<td><input type="text" placeholder="Name*" id="submit" required pattern="[A-Za-z]{3,}"></td>
+     	<td><input type="email" placeholder="Email*" id="control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></td>
+	</tr>
+
+<tr>
+	<td><input type="tel" placeholder="Phone*" id="sub" required pattern="[0-9]{4}-[0-9]{7}$"></td>
+	
+	<td><input type="text" placeholder="Department*" id="subm" required pattern="[A-Za-z]{3,}"></td>
+	
+</tr>
+<tr>
+	<td><input type="submit" value="Submit" id="submint"/></td>
+</tr>
+</table>
+</form>
+</div></div>
+<div class="medical services"><h1 align="center">OUR MEDICAL DEPARTMENT</h1><br><br> <div class="blueline"></div><br><br>
+
+<script>
+		function a(a) {
+			var a=document.getElementById('button');
+	
+			document.getElementById('img').src="Img/m_portfolio_4.jpg";
+		
+		}
+			function ab(a) {
+			var b=document.getElementById('Button');
+	
+				document.getElementById('img').src="Img/slide1_2.jpg"	;
+		
+		}
+			function abc(a) {
+	var c=document.getElementById('utton');
+	
+				document.getElementById('img').src="Img/slide1_3.jpg";
+		
+		}
+			function abcd(a) {
+			var d=document.getElementById('ton');
+	
+				document.getElementById('img').src="Img/doctor.jpg";
+		
+		}
+			function abcde(a) {
+		var e=document.getElementById('on')
+	
+				document.getElementById('img').src="Img/m_portfolio_4.jpg";
+		
+		}
+	
+	
+	</script>
+
+
+
+<div class="left"><br><img src="Img/cardiologye.jpg" id="button" onClick="a(this.src)">
+<img src="Img/hsh.JPG" value="SKILLED DEPARTMENT" id="Button" onClick="ab(this.src)">
+<img src="Img/hs.JPG" value="DENTAL DEPARTMENT" id="utton" onClick="abc(this.src)">
+<img src="Img/jeh.JPG" value="EMERGENCY DEPARTMENT" id="ton" onClick="abcd(this.src)">
+<img src="Img/fs.JPG" value="MEDICINE DEPARTMENT" id="on" onClick="abcde(this.src)">
+
+</div><div class="right">
+	<img src="Img/service_3.jpg" id="img" width="1100px" height="500px">
+	
+</div></div><br><br><br><br><br><br><br>
+
+
+<div class="deepskyblue"><br><br><br><br><br>
+<table>
+  <tr>
+	  <td><a href="pages/Dr.Johnathon.html"><h1 style="color: white">Dr.Johnathon</h1></a></td>
+	  <td><a href="pages/Dr.Crista.html"><h1 style="color: white">Dr.Crista</h1></a></td>
+	  <td><a href="pages/Dr.Sara Rozairo.html"><h1 style="color: white">Dr.Sara Rozairo</h1></a></td>
+  </tr>
+  <tr>
+  	<td><p style="color: white">Surgery</p></td>
+  	<td><p style="color: white">Cardiology</p></td>
+  	<td><p style="color: white">Dentist</p></td>
+  </tr>
+   <tr>
+	    <td><div class="white1st"><a href="pages/Dr.Johnathon.html"><img src="Img/m_team_1.jpg" width="90px" height="90px"></a><br><br><p align="center" style="color: gray">Pellentesque Tellus Arcu,Laoreet</p><p align="center" style="color: gray">Dearty Volutpavenenatis MolestPellenresque</p><p align="center" style="color: gray">Commodopretium Dear.</p></div></td>
+	    <td><div class="white2st"><a href="pages/Dr.Crista.html"><img src="Img/m_team_3.jpg" width="90px" height="90px"></a><br><br><p align="center" style="color: gray">Pellentesque Tellus Arcu,Laoreet</p><p align="center" style="color: gray">Dearty Volutpavenenatis MolestPellenresque</p><p align="center" style="color: gray">Commodopretium Dear.</p></div></td>
+	    <td><div class="white3st"><a href="pages/Dr.Sara Rozairo.html"><img src="Img/m_team_2.jpg" width="90px" height="90px"></a><br><br><p align="center" style="color: gray">Pellentesque Tellus Arcu,Laoreet</p><p align="center" style="color: gray">Dearty Volutpavenenatis MolestPellenresque</p><p align="center" style="color: gray">Commodopretium Dear.</p></div></td>
+   </tr>
+</table><br><br>
+<table>
+	<tr>
+		<td><div class="smallblue"></div></td>
+		<td><div class="smallblue"></div></td>
+		<td><div class="smallblue"></div></td>
+	</tr>
+</table>
+</div>
+<br>
+<div class="Latestnews">
+	<h1 align="center">OUR SUCESS STORIES</h1><br>
+<div class="line"></div><br><br>
+<table>
+	<tr>
+		<td><a href="Img/9caa2793658f3cc387f216157300b1ce_M.jpg"><img src="Img/service_1.jpg" width="350px" height="200px;"/></a></td>
+		<td><a href="Img/ada9a09acea936d776a6f55c82778c43_M.jpg"><img src="Img/service_2.jpg" width="350px" height="200px;"/></a></td>
+		<td><a href="Img/emergency.jpg"><img src="Img/emergency.jpg" width="350px" height="200px;"/></a></td>
+	</tr>
+	<tr>
+		<td><a href="Img/9caa2793658f3cc387f216157300b1ce_M.jpg"><h2>Dental Care Treatment</h2></a><br><br><p style="color: gray">Eimply dummy text of the printing ander aretya </p><br><p style="color: gray">typesetting industry…</p></td>
+		<td><a href="Img/ada9a09acea936d776a6f55c82778c43_M.jpg"><h2>Operation Surgery</h2></a><br><br><p style="color: gray">Eimply dummy text of the printing ander aretya </p><br><p style="color: gray">typesetting industry…</p></td>
+		<td><a href="Img/emergency.jpg"><h2>Emrgency Case</h2></a><br><br><p style="color: gray">Eimply dummy text of the printing ander aretya </p><br><p style="color: gray">typesetting industry…</p></td>
+	</tr>
+</table>
+</div>
+<div class="contact"><img src="Img/phone.png" width="50px" height="50px"><h1 style="color: white">EMERGENCY CALL: (123) 00 8888 999</h1>
+<div class="White"><input type="button" value="Contact Us" class="CONTACTUS" onClick="Contact()"></div></div>
+<div class="black"><div class="newleft1"><br><h1 align="center" style="color: white">About us</h1><br><br><br><p align="justify" style="color: white">Thereare aserttrmany variations of passages of Lorem Ipsum available, but jority haTher aswrta serttrmany variations of passages of Lorem available.aTher wrtof Lorem Ipsum available.</p></div><div class="newleft2"><br><h1 align="center" style="color: white">Medical Guide</h1><br><ul>
+	<a href="Index.html"><li style="color: white">Home</li></a>
+	<div class="WHITE"></div>
+	<a href="pages/services.html"><li style="color: white">Services</li></a>
+	<div class="WHITE"></div>
+	<a href="pages/Department.html"><li style="color: white">Departments</li></a>
+	<div class="WHITE"></div>
+	<a href="pages/About Us.html"><li style="color: white">About Us</li></a>
+	<div class="WHITE"></div>
+
+</ul></div><div class="newleft3"><br><h1 align="center" style="color: white">Keep In Touch</h1><br><ul>
+	<li style="color: white"> Medical Ltd, Manhattan 1258, New York, USA Lahore</li>
+	
+	<br><li style="color: white">(123) 00 8888 999</li>
+	<br><a href="mailto:info@example.com"><li style="color: white">info@example.com</li></a>
+	<br><li style="color: white">(123) 00 8888 999</li>
+</ul></div>
+</div>
+
+
+<div class="footer"><br><h3 align="center" style="color: white">Cambridge © All Rights Reserved 2018.</h3></div>
+</div>
+</body>
+</html>
